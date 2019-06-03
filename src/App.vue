@@ -97,40 +97,30 @@ export default {
             text: 'units',
             href: '/units'
           }
-          // {
-          //   icon: 'apps',
-          //   text: 'Товарный матчинг',
-          //   href: '/products_matching'
-          // },
-          // {
-          //   icon: 'view_stream',
-          //   text: 'Категорийный матчинг',
-          //   href: '/categories_matching'
-          // }
+        ]
+      },
+      {
+        icon: 'vertical_split',
+        text: 'Categories matching',
+        // href: '/analogs',
+        model: false,
+        children: [
+          {
+            icon: 'format_indent_increase',
+            text: 'Categories Market',
+            href: '/categories-market'
+          },
+          {
+            icon: 'format_indent_decrease',
+            text: 'Categories LM',
+            href: '/categories-lm'
+          }
         ]
       },
       {
         icon: 'wallpaper',
         text: 'Image matching',
-        // href: '/analogs',
         model: false
-        // children: [
-        // {
-        //   icon: 'weight-kg',
-        //   text: 'units',
-        //   href: '/units'
-        // }
-        // {
-        //   icon: 'apps',
-        //   text: 'Товарный матчинг',
-        //   href: '/products_matching'
-        // },
-        // {
-        //   icon: 'view_stream',
-        //   text: 'Категорийный матчинг',
-        //   href: '/categories_matching'
-        // }
-        // ]
       },
       { icon: 'help', text: 'Помощь' }
     ]
